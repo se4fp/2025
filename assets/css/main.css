@@ -2136,12 +2136,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #main-slide .carousel-item .carousel-caption .heading {
-  font-size: 43px;
+  font-size: 40px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  margin-top: 35px;
+  margin-top: 32px;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
