@@ -642,9 +642,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #fff;
   padding: 0 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 20px; /* era 40px originalmente*/
   text-transform: uppercase;
   background: transparent;
   -webkit-transition: all 0.3s ease-in-out;
