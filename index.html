@@ -118,11 +118,23 @@
                   Call for Papers
                 </a>
               </li>
-              <!--<li class="nav-item">
-                <a class="nav-link" href="#accepted-papers">
-                  Accepted Papers
+
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#call-for-papers" id="cfpDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Call for Papers
                 </a>
+                <div class="dropdown-menu" aria-labelledby="cfpDropdown">
+                  <a class="dropdown-item" href="#call-for-papers">CFP</a>
+                  <a class="dropdown-item" href="#accepted-papers">Accepted Papers</a>
+                </div>
               </li>-->
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#esquenta">
+                  Esquenta
+                </a>
+              </li>
+              
               <li class="nav-item">
                 <a class="nav-link" href="#agenda">
                   Agenda
@@ -163,9 +175,18 @@
           <li>
             <a class="page-scroll" href="#call-for-papers">Call for Papers</a>
           </li>
-          <!--<li>
-            <a class="page-scroll" href="#accepted-papers">Accepted Papers</a>
+
+          <!--<li class="has-submenu">
+            <a href="javascript:void(0)" onclick="toggleSubmenu(this)">Call for Papers ▾</a>
+            <ul class="submenu">
+              <li><a class="page-scroll" href="#call-for-papers">CFP</a></li>
+              <li><a class="page-scroll" href="#accepted-papers">Accepted Papers</a></li>
+            </ul>
           </li>-->
+
+          <li>
+            <a class="page-scroll" href="#esquenta">Esquenta</a>
+          </li>
           <li>
             <a class="page-scroll" href="#agenda">Agenda</a>
           </li>
@@ -576,6 +597,44 @@
       </div>
     </section>-->
     <!-- Accepted papers Section End -->
+
+    <!-- Esquenta Section Start -->
+    <section id="esquenta" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Esquenta SE4FP 2025</h1>
+              <p style="font-size: 18px; text-align: justify;">As a way to start engaging the audience ahead of our in-person gathering in September, we kicked off the <b>SE4FP Warm-up</b> on June 25, 2025. The Warm-up — <i>Esquenta</i> in Portuguese — consists of a <b>series of free online talks</b>, held in either Portuguese or English, covering topics related to Software Engineering for Functional Programming.</p>
+              <p style="font-size: 18px; text-align: justify;"><b>Register to join all of our virtual sessions!</b> We’ll send you updates and links to all upcoming talks: <a href="https://forms.gle/yQ8ctsd5PzJfRSDv9" target="_blank">SE4FP Warm-up Registration!</a></p>
+
+              <a href="#esquenta"> <img src="assets/img/esquenta_SE4FP.png" alt="SE4FP Warm-up 2025" title="SE4FP Warm-up 2025" width="25%"></a>
+              <p></p>
+
+              <h3 style="text-align: left;">Talks Already Held:</h3>
+
+                  <ul style="font-size: 18px; text-align: left;">
+                    <li>&bull;&nbsp;&nbsp;&nbsp; <b>June 25, 2025:</b> The LEAN Language by Sofia Rodrigues <a href="https://www.youtube.com/watch?v=2S4LRO4TF9Y" target="_blank">[Video]</a></li>
+                  </ul>
+                  <p></p>
+
+              <h3 style="text-align: left;">Scheduled Talks:</h3>
+
+                  <ul style="font-size: 18px; text-align: left;">
+                    <li>&bull;&nbsp;&nbsp;&nbsp; <b>August 08, 2025 – 4:00 PM (UTC−3):</b> The Clojure Language by Nelkisa M.</li>
+                    <li>&bull;&nbsp;&nbsp;&nbsp; <b>August 13, 2025 – 4:00 PM (UTC−3):</b> The Quint Language by Gabriela Moreira.</li>
+                    <li>&bull;&nbsp;&nbsp;&nbsp; <b>August 20, 2025 – 4:00 PM (UTC−3):</b> Talk by Paulo Borba.</li>
+                    <li>&bull;&nbsp;&nbsp;&nbsp; <b>September 09, 2025 – 4:00 PM (UTC−3):</b> The Erlang Language by Brujo Benavides.</li>
+                    <li>&bull;&nbsp;&nbsp;&nbsp; <b>To be announced:</b> The Potigol Language by Leonardo Lucena.</li>
+                    <li>&bull;&nbsp;&nbsp;&nbsp; <b>To be announced:</b> The Scala, Clojure, Elixir, and Dart Languages by Jorge R. G. Vaz Filho</li>
+                  </ul>
+ 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Esquenta Section End -->
 
 
     <!-- Schedule Section Start -->
@@ -1290,5 +1349,12 @@
     <script src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/main.js"></script>
+    
+    <script>
+      function toggleSubmenu(link) {
+        const submenu = link.nextElementSibling;
+        submenu.classList.toggle("show");
+      }
+    </script>
   </body>
 </html>

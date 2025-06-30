@@ -19,6 +19,21 @@ body {
   overflow-x: hidden;
 }
 
+.mobile-menu .submenu {
+  display: none;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.mobile-menu .submenu li a {
+  padding-left: 10px;
+  display: block;
+}
+
+.mobile-menu .submenu.show {
+  display: block;
+}
+
 h1, h2, h3, h4 {
   font-size: 36px;
   font-weight: 700;
