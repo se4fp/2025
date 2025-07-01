@@ -103,11 +103,11 @@
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item active">
+              <!--<li class="nav-item active">
                 <a class="nav-link" href="#header-wrap">
                   Home
                 </a>
-              </li>
+              </li>-->
               <li class="nav-item">
                 <a class="nav-link" href="#about">
                   About
@@ -124,7 +124,6 @@
                   Call for Papers
                 </a>
                 <div class="dropdown-menu" aria-labelledby="cfpDropdown">
-                  <a class="dropdown-item" href="#call-for-papers">CFP</a>
                   <a class="dropdown-item" href="#accepted-papers">Accepted Papers</a>
                 </div>
               </li>-->
@@ -166,9 +165,9 @@
 
         <!-- Mobile Menu Start -->
         <ul class="mobile-menu">
-          <li>
+          <!--<li>
             <a class="page-scroll" href="#header-wrap">Home</a>
-          </li>
+          </li>-->
           <li>
             <a class="page-scroll" href="#about">About</a>
           </li>
@@ -177,9 +176,8 @@
           </li>
 
           <!--<li class="has-submenu">
-            <a href="javascript:void(0)" onclick="toggleSubmenu(this)">Call for Papers ▾</a>
+            <a href="#call-for-papers" onclick="toggleSubmenu(this)">Call for Papers ▾</a>
             <ul class="submenu">
-              <li><a class="page-scroll" href="#call-for-papers">CFP</a></li>
               <li><a class="page-scroll" href="#accepted-papers">Accepted Papers</a></li>
             </ul>
           </li>-->
@@ -543,7 +541,7 @@
 
 
     <!-- Accepted papers Section Start -->
-    <!--<section id="accepted-papers" class="section">
+    <!--<section id="accepted-papers" class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -611,14 +609,14 @@
               <a href="#esquenta"> <img src="assets/img/esquenta_SE4FP.png" alt="SE4FP Warm-up 2025" title="SE4FP Warm-up 2025" width="25%"></a>
               <p></p>
 
-              <h3 style="text-align: left;">Talks Already Held:</h3>
+              <h4 style="text-align: left;">Talks Already Held:</h4>
 
                   <ul style="font-size: 18px; text-align: left;">
                     <li>&bull;&nbsp;&nbsp;&nbsp; <b>June 25, 2025:</b> The LEAN Language by Sofia Rodrigues <a href="https://www.youtube.com/watch?v=2S4LRO4TF9Y" target="_blank">[Video]</a></li>
                   </ul>
                   <p></p>
 
-              <h3 style="text-align: left;">Scheduled Talks:</h3>
+              <h4 style="text-align: left;">Scheduled Talks:</h4>
 
                   <ul style="font-size: 18px; text-align: left;">
                     <li>&bull;&nbsp;&nbsp;&nbsp; <b>August 08, 2025 – 4:00 PM (UTC−3):</b> The Clojure Language by Nelkisa M.</li>
@@ -1349,6 +1347,7 @@
     <script src="assets/js/jquery.slicknav.js"></script>
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dropdown-observer.js"></script> <!--Criado por mim!-->
     
     <script>
       function toggleSubmenu(link) {
